@@ -40,3 +40,11 @@ admin.boundaries <- c(
   lga_admin_boundaries = 'sv_local_government_areas',
   state_admin_boundaries = 'sv_states'
 )
+
+all.data <-
+  c(admin.boundaries,
+    settlement,
+    points.of.interest,
+    population.estimate)
+
+usethis::use_data(all.data, internal = TRUE)

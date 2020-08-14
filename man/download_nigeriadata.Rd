@@ -12,3 +12,36 @@ download_nigeriadata(item)
 \description{
 Download Data on Nigeria
 }
+\details{
+\tabular{ll}{
+    \tab value \cr
+   ward_admin_boundaries \tab sv_wards \cr
+   lga_admin_boundaries \tab sv_local_government_areas \cr
+   state_admin_boundaries \tab sv_states \cr
+   settlement_point \tab sv_settlements \cr
+   settlement_area \tab settlement_areas \cr
+   farmlands \tab farms \cr
+   industrial_sites \tab sv_factory_sites \cr
+   petrol_stations \tab sv_fuel_stations \cr
+   markets \tab sv_markets \cr
+   police_stations \tab sv_police_stations \cr
+   prisons \tab sv_prisons \cr
+   schools \tab sv_schools \cr
+   religion_institutions \tab sv_religious_institutions \cr
+   post_offices \tab sv_post_offices \cr
+   government_buildings \tab sv_government_buildings \cr
+   dump_sites \tab sv_dump_sites \cr
+   public_water_supplies \tab sv_public_water_supplies \cr
+   electricity_substations \tab sv_electricity_substations \cr
+   pharmacy_stores \tab sv_pharmacies \cr
+   patent_medicine_vendors \tab sv_patent_medicine_vendors \cr
+   healthcare_facilities \tab sv_health_facilities \cr
+   emergency_services \tab NA \cr
+   idp_camp \tab sv_internally_displaced_person_surveys \cr
+   settlement_population_estimate \tab sv_settlement_pop_estimate \cr
+   settlement_point_population_estimate \tab sv_settlement_points_pop_estimate \cr
+   ward_population_estimate \tab sv_ward_pop_estimate \cr
+   lga_population_estimate \tab sv_local_government_pop_estimate \cr
+   state_population_estimate \tab sv_state_pop_estimate \cr
+}
+}

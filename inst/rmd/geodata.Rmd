@@ -1,0 +1,15 @@
+---
+title: "Geodata"
+author: "Victor Ordu"
+---
+
+<!-- This file is for the generation of a section of a help file. -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r data, results='asis'}
+devtools::load_all(quiet = TRUE)
+knitr::kable(data.frame(value = all.data, stringsAsFactors = FALSE))
+```

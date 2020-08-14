@@ -1,7 +1,7 @@
 Package: nigeriadata
 Type: Package
 Title: An open source R package for Nigeria Spatial and Non-spatial data
-Version: 0.1.0
+Version: 0.1.0.9001
 Author: Joseph Oladokun
 Maintainer: Joseph Oladokun <oladokunjoseph2@gmail.com>
 Description: More about what it does (maybe more than one line)
